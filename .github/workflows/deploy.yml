@@ -27,19 +27,12 @@ jobs:
           npx hexo clean
           npx hexo generate
 
-      - name: Check secret presence
-        run: |
-          if [ -z "${{ secrets.SERVER_HOST }}" ]; then echo "SERVER_HOST is empty"; exit 1; fi
-          if [ -z "${{ secrets.SERVER_USER }}" ]; then echo "SERVER_USER is empty"; exit 1; fi
-          if [ -z "${{ secrets.SERVER_SSH_KEY }}" ]; then echo "SERVER_SSH_KEY is empty"; exit 1; fi
-          echo "Secrets look present"
-
       - name: Deploy to server over SSH
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
-          key: ${{ secrets.SERVER_SSH_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SERVER_PORT || 22 }}
           script: |
             cd /opt/hexo-blog
