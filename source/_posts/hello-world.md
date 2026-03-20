@@ -1,38 +1,38 @@
 ---
-title: Hello World
+title: 欢迎来到来到我的个人博客
+date: 2025-10-08 10:00:00
+tags: [欢迎, 炸弹猫, 新开始]
+categories: [生活, 感悟]
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+# 欢迎来到我的网站
 
-### Create a new post
+一直想要做一个个人博客网站挺久了，之前也买有阿里云的服务器，本科的时候一直不太会用，一直没有真正用起来。
+在上研究生之后学到了很多自己之前不会，买了三年服务器，备案了域名，所以还是想好好经营一下这个网站。
 
-``` bash
-$ hexo new "My New Post"
-```
+## 我是谁？
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+我是谁呢？之前有看到蒋劲夫加减法的昵称，所以也取了姓名的谐音梗的炸弹猫，正好这个名称也有域名在售就一直沿用了。 
+我是一名在校研究生，总是想在年轻的时候拥有一些爱好，目前在玩：FPV / 航拍 / 摄影 / 电子数码产品 / DIY。
 
-### Run server
+日常状态：拷打AI，问自己感兴趣的事情
 
-``` bash
-$ hexo server
-```
+## 我的兴趣？简单说：一切能动手、能拆解、能改写规则的东西。
 
-More info: [Server](https://hexo.io/docs/server.html)
+- **DIY 是本能**：从PCB打板到木壳外壳，信奉“能自己造的绝不买成品”（其实是组装大师）；
+- **FPV 是自由**：第一视角穿越丛林、楼宇、甚至自己的想象力边界（实际上很菜一年了还没飞好）；
+- **摄影是观察**：镜头不是记录现实，而是重构视角（传奇的烂片王，记录大家开心的模样）；
+- **编程是语言**：写代码不是为了跑通，是为了让机器听懂人的逻辑（鞭策AI干活的究极产品经理，有ai什么都会点）；
+- **区块链/Web3/AI**：不站队、不吹捧，只做技术可行性压力测试（抱有暴富想法的小韭菜，放心没上当）；
+- **数码产品**：买来不是用的，是用来“解剖”的——看看厂商到底藏了什么心思（这个我的真懂点）。
 
-### Generate static files
+我常被朋友称为“赛博医生”：系统卡顿？电脑爆炸？手机ROM？别急，让我看看。
 
-``` bash
-$ hexo generate
-```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+## 最后一句
+ 
+如果你也相信：**真正的乐趣，藏在“试试看能不能行”之后**，那我们大概会很聊得来，相信我们可以！
 
-### Deploy to remote sites
+---
 
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+一如初见，期待与你的每一次遇见。
