@@ -1,0 +1,69 @@
+# ======================== Hexo 核心忽略项 ========================
+# Hexo 生成的静态文件（部署时由CI/CD构建，无需提交）
+/public/
+# Hexo 缓存文件（本地生成，无需提交）
+/db.json
+/node_modules/
+# Hexo 本地调试日志
+debug.log
+# Hexo 插件临时文件
+/.deploy*/
+
+# ======================== Node.js 通用忽略项 ========================
+# Node 依赖包（CI/CD会自动安装，无需提交）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+# Node 版本锁文件（可选：如果要固定依赖版本，可取消注释）
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# Node 进程文件
+*.pid
+*.seed
+*.pid.lock
+
+# ======================== Docker/容器相关忽略项 ========================
+# Docker 构建临时文件
+.dockerignore
+# 本地容器日志（CI/CD部署的容器日志不在这里）
+docker-logs/
+# 本地 Docker -compose 覆盖配置（比如本地调试用的 docker-compose.override.yml）
+docker-compose.override.yml
+# 容器数据卷本地挂载目录（避免提交测试数据）
+data/
+
+# ======================== Terraform 相关忽略项 ========================
+# Terraform 状态文件（敏感，且应托管到远程/云存储）
+*.tfstate
+*.tfstate.*
+# Terraform 缓存和插件
+.terraform/
+terraform.tfplan
+terraform.tfplan.json
+# Terraform 变量文件（包含云厂商密钥等敏感信息）
+terraform.tfvars
+*.auto.tfvars
+
+# ======================== 通用/本地忽略项 ========================
+# 编辑器配置（根据你使用的编辑器添加）
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+# 环境变量文件（包含敏感信息，比如云服务器IP、密钥等）
+.env
+.env.local
+.env.*
+# 临时文件
+tmp/
+temp/
+# 日志文件
+logs/
+*.log
+# 压缩包
+*.zip
+*.tar.gz
