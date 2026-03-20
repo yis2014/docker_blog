@@ -35,6 +35,6 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SERVER_PORT || 22 }}
           script: |
-            cd /opt/hexo-blog
+            cd /www/wwwroot/docker_blog
             git pull origin main
             docker compose up -d --build
